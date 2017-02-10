@@ -1,0 +1,17 @@
+{
+  "name": "webpack-bt",
+  "version": "1.0.0",
+  "description": "webpack boiler template",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack",
+    "dev": "node dev-server.js"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "author": "@Khanos",
+  "license": "ISC"
+}
